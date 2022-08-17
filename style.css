@@ -1,0 +1,103 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+body  {
+  width:1200px;
+  padding: 0px;
+}
+
+.navbar{
+  background-color: none;
+  width: 100%;
+}
+.grow-list{
+  margin: 0px;
+  padding: 10px;
+  list-style-type: none;
+  float: initial;
+  float: left;
+}
+.list-item {
+  display: inline-block;
+  color: white;
+  padding: 15px;
+  font-family: sans-serif;
+  font-size: small;
+  text-align: center;
+  color: #C1C1C1;
+  font-size: small;
+}
+.list-item:hover{
+  color: black;
+}
+.logo{
+  float: left;
+  width: 120px;
+  padding: 20px;
+}
+
+.nav-button{
+  background-color: #8D8BCB;
+  border: none;
+  width: 100px;
+  height: 35px;
+  color: white;
+  border-radius: 7px;
+}
+.button-group{
+    float: right;
+    padding: 20px;
+    padding-left: 100px;
+}
+.navbar-container{
+    padding: 20px;
+}
+.heading-text{
+  color: #3C2F60;
+  font-size: 60px;
+  font-family: sans-serif;
+  overflow: auto;
+}
+.heading-text > span {
+    font-family: sans-serif;
+    color: #5955B3;
+}
+.banner-container{
+    padding-left: 35px;
+    padding-top: 60px;
+    padding-right: 0px;
+    margin-top: 20px;
+}
+.content{
+    overflow: auto;
+}
+.content::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.description{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.illustration{
+    float: right;
+    width: 750px;
+    padding: 0px;
+    margin-top: -450px;
+}
+.btn{
+    width: 150px;
+}
+.container{
+    margin-left: 20px;
+}
+button:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
